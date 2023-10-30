@@ -20,6 +20,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 44px;
+    padding: 40px 0 0 0;
 }
 .header__nav-link {
     text-decoration: none;
@@ -29,7 +30,7 @@ body {
     font-weight: 400;
 }
 .design {
-    padding: 60px 0 0 0;
+    padding: 80px 0 0 0;
 }
 .hero {
     background: var(--Dark-Primary, #2a254b);
@@ -94,7 +95,7 @@ body {
     justify-content: space-between;
     padding: 51px 0 0 0;
 }
-.brand__block-ttile {
+.brand__block-title {
     color: var(--Dark-Primary, #2a254b);
     font-family: "Clash Display";
     font-size: 20px;
@@ -114,4 +115,57 @@ body {
     font-size: 16px;
     font-weight: 400;
     line-height: 150%;
+}
+.new__page__header {
+    padding: 80px 0 0 0;
+}
+
+.new__page__header-title {
+    color: #2a254b;
+    font-family: "Clash Display";
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.new__page__blocks {
+    display: flex;
+    gap: 20px;
+    padding: 33px 0 0 0;
+}
+.new__page__block img {
+    width: 100%;
+    height: 100%;
+}
+.new__page__block {
+    max-width: 305px;
+    height: 462px;
+}
+.new__page__block-title {
+    color: var(--Dark-Primary, #2a254b);
+    font-family: "Clash Display";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 140%;
+}
+.new__page__block-price {
+    color: var(--Dark-Primary, #2a254b);
+    font-family: "Satoshi";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+}
+.new__page-btn1 {
+    color: #2a254b;
+    font-family: "Satoshi";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    padding: 16px 32px 16px 32px;
+    border: none;
+    background: none;
+}
+.new__page-btn {
+    display: flex;
+    justify-content: center;
+    padding: 150px 0 0 0;
 }

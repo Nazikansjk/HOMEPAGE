@@ -225,3 +225,44 @@ body {
     justify-content: center;
     padding: 52px 0 0 0;
 }
+.club-content {
+    text-align: center;
+    padding: 120px 0 0 0;
+}
+.club__info-title {
+    color: var(--Dark-Primary, #2a254b);
+    font-family: "Clash Display";
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 140%;
+}
+.club__info-text {
+    color: var(--Dark-Primary, #2a254b);
+    font-family: "Satoshi";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+}
+.club__info-btn {
+    display: flex;
+    justify-content: center;
+    padding: 72px 0 0 0;
+}
+.club__info-btn1 {
+    color: var(--Dark-Primary, #2a254b);
+    font-family: "Satoshi";
+    font-size: 16px;
+    font-weight: 400;
+    padding: 17px 205px 17px 32px;
+    border: white;
+}
+.club__info-btn2 {
+    padding: 16px 32px;
+    color: var(--White, #fff);
+    font-family: "Satoshi";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    background: var(--Dark-Primary, #2a254b);
+    border: white;
+}
